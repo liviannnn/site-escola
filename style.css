@@ -1,23 +1,63 @@
-h1{
-    color:pink
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+#cabecalho{
+    color: yellow;
     text-align: center;
-
+    display: flex;
+    justify-content: space-around;
+   
 }
-
-
-
-body {
-    background-color: black;
-    color:gray
+body{
+   
+background-color: hsla(241, 100%, 46%, 0.418);
 }
-#imagemprincipal{
-    width: 100px ; ;
+#jardim{
+    width: 100px;
     height: 100px;
+   
 }
-#jardim {
-    width: 200px;
-    height: 200px]
+#fotoescola{
+    width: 25%;
+}
 
+#escola{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+   
 }
+
+#escola-titulo{
+    padding: 24px 0;
+}
+#conteudo{
+    width: 35%;
+}
+
+#lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
+    font-size: 24px;
+}
+#alunos{
+    width: 120px;
+    height: 120px;
+   
+}
+#estudante-icone{
+    width: 24px;
+}
+#estudante-div{
+    text-align: center;
+}
+#estudante-todos{
+    display: grid;
+    grid-template-columns: 20%  20%  20%  20%;
 
 

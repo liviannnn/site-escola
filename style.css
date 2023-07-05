@@ -4,7 +4,7 @@
    
 }
 #cabecalho{
-    color: yellow;
+    color: rgb(255, 0, 187);
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -12,7 +12,7 @@
 }
 body{
    
-background-color: hsla(241, 100%, 46%, 0.418);
+background-color: hsl(314, 100%, 81%);
 }
 #jardim{
     width: 100px;
@@ -24,7 +24,7 @@ background-color: hsla(241, 100%, 46%, 0.418);
 }
 
 #escola{
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
